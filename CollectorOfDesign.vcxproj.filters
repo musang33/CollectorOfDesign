@@ -7,6 +7,9 @@
     <Filter Include="Core">
       <UniqueIdentifier>{b01085e2-bf36-48db-81c3-d92de29dfc13}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Math">
+      <UniqueIdentifier>{629080a0-0915-4c53-a600-afe0a0f27006}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Handler\ServerCommonHandler.cpp">
@@ -23,5 +26,8 @@
     <ClInclude Include="Core\Event.h">
       <Filter>Core</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="GitPushError.txt" />
   </ItemGroup>
 </Project>

@@ -20,11 +20,18 @@
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Handler\ServerCommonHandler.cpp" />
+    <ClCompile Include="Math\Capsule.cpp" />
+    <ClCompile Include="math\LineSegment3.cpp" />
+    <ClCompile Include="Math\Vector3.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Core\Event.h" />
     <ClInclude Include="Core\Singleton.h" />
     <ClInclude Include="Handler\ServerCommonHandler.h" />
+    <ClInclude Include="Math\Capsule.h" />
+    <ClInclude Include="math\LineSegment3.h" />
+    <ClInclude Include="math\MathCommon.h" />
+    <ClInclude Include="Math\Vector3.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="GitPushError.txt" />

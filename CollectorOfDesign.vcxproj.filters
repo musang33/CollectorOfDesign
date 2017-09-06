@@ -15,6 +15,15 @@
     <ClCompile Include="Handler\ServerCommonHandler.cpp">
       <Filter>Handler</Filter>
     </ClCompile>
+    <ClCompile Include="Math\Vector3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="math\LineSegment3.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Math\Capsule.cpp">
+      <Filter>Math</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Handler\ServerCommonHandler.h">
@@ -25,6 +34,18 @@
     </ClInclude>
     <ClInclude Include="Core\Event.h">
       <Filter>Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Vector3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\MathCommon.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="math\LineSegment3.h">
+      <Filter>Math</Filter>
+    </ClInclude>
+    <ClInclude Include="Math\Capsule.h">
+      <Filter>Math</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
